@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        />
+
+    <RadioGroup
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/select1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的名片"
+            >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/select2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机短信"
+            >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/select3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电子邮件"
+            >
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/select4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="快捷便签"
+            >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/select5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网址链接"
+            >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/select6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自由文本"
+            >
+        </RadioButton>
+
+    </RadioGroup>
+
+</LinearLayout>

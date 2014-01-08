@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">欢迎使用"光剑"二维码生成器</string>
+    <string name="app_name">光剑二维码</string>
+    <string name="app_about">关于</string>
+    <string name="app_about_msg">作者: 书魔剑仙\nEmail: universsky@126.com\nQQ: 706812559\n光剑是您的名片/短信/电子邮件/便签/网络书签的的最佳二维码伴侣\n</string>
+    <string name="str_ok">确认</string>
+    <string name="str_exit">退出</string>
+    <string name="save_filename">文件名</string>
+    <string name="cancel">取消</string>
+</resources>
